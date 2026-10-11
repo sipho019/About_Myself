@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7f0;
+    color: #0e1313;
+}
+
+
+nav {
+    background-color: #1c1735;
+    text-align: left;
+    padding: 15px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+   
+}
+nav a:hover{
+    color: aqua;
+}
+
+
+
+
+/* Main content */
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Sections */
+
+section {
+    background-color: white;
+    margin-top: 25px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+section h2 {
+    color: #000503;
+    margin-bottom: 20px;
+}
+
+
+section h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* Image */
+
+#about img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+/* Paragraph */
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+/* Lists */
+
+ul {
+    margin-left: 20px;
+}
+
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* Span */
+
+span {
+    font-weight: bold;
+    color: #000705;
+}
+
+
+/* Links */
+a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+    
+
+a:hover {
+    background-color: rgba(6, 0, 0, 0.497);
+    color: rgb(255, 255, 255);
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
