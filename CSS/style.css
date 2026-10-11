@@ -14,7 +14,7 @@ body {
 
 
 nav {
-    background-color: #1c1735;
+    background-color: #0a0817;
     text-align: left;
     padding: 15px;
 }
@@ -105,16 +105,17 @@ span {
 
 /* Links */
 a {
-    color: white;
+    color: rgba(2, 0, 15, 0.471);
     padding: 10px;
     text-decoration: none;
     cursor: pointer;
+  
 }
     
 
 a:hover {
     background-color: rgba(6, 0, 0, 0.497);
-    color: rgb(255, 255, 255);
+    color: rgb(13, 6, 213);
 }
 
 
